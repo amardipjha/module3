@@ -1,0 +1,15 @@
+ *{
+  padding:0; margin:0;
+ }
+ nav{
+    background-color: darkgrey;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+  }
+  li a{background-color: white;}
+  section div {background-color:darkgrey;}
+  
+  @media (max-width: 767px){
+    .navbar-brand h1{padding-left:30px;}
+    h2{font-size:40px;}
+  }
